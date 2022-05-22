@@ -1,0 +1,117 @@
+@media only screen and (min-width: 1366px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+*{
+    margin: 0%;
+    color: black;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: white;
+}
+hr{
+    border: 1px solid black;
+}
+.container{
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, rgba(121, 121, 255, 0.423), rgba(233, 184, 138, 0.693));
+    border: 2px solid black;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.menu-icon{
+    width: 40px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+nav{
+    text-align: right;
+    flex: 1;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    color: pink;
+}
+.bgpic{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.aboutus{
+    margin: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+.about-body{
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    text-align: center;
+}
+.about-body h3{
+    font-size: 30px;
+}
+.about-body p{
+    font-size: 25px;
+    word-spacing: 2px;
+    line-height: 150%;
+}
+.socialmedia{
+    text-align: center;
+}
+.socialmedia img{
+    height: 40px;
+    margin: 20px;
+    cursor: pointer;
+}
+.footer{
+    padding: 1%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    background: rgb(255, 255, 198);
+    margin-top: 120px;
+    border: 1px solid black;
+}

@@ -1,0 +1,142 @@
+@media only screen and (min-width: 1366px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+*{
+    margin: 0%;
+    color: black;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: white;
+}
+hr{
+    border: 1px solid black;
+}
+.container{
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, rgba(121, 121, 255, 0.423), rgba(233, 184, 138, 0.693));
+    border: 2px solid black;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.menu-icon{
+    width: 40px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+nav{
+    text-align: right;
+    flex: 1;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    color: pink;
+}
+.title{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 120px;
+    width: 900px;
+    text-align: center;
+}
+.bgpic{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+.catbody{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.items{
+    padding: 8px;
+    display: inline-block;
+    margin: 35px;
+    vertical-align: top;
+    text-align: left;
+    background: rgb(244, 244, 244);
+    border-radius: 20px 20px 20px 20px;
+}
+.items img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+}
+.items p{
+    line-height: 25px;
+    text-align: justify;
+    padding: 5px;
+}
+button{
+    width: 110px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(rgba(121, 121, 255, 0.744), rgba(233, 184, 138, 0.849));
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 1s;
+    position: relative;
+    display: table-cell;
+}
+button:hover{
+    width: 120px;
+}
+.footer{
+    padding: 1%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    background: rgb(255, 255, 198);
+    margin-top: 120px;
+    border: 1px solid black;
+}

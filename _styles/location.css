@@ -1,0 +1,119 @@
+@media only screen and (min-width: 1366px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+*{
+    margin: 0%;
+    color: black;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: white;
+}
+hr{
+    border: 1px solid black;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, rgba(121, 121, 255, 0.423), rgba(233, 184, 138, 0.693));
+    border: 2px solid black;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.menu-icon{
+    width: 40px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+nav{
+    text-align: right;
+    flex: 1;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    color: pink;
+}
+.bgpic{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.locationbod{
+    margin-left:2%;
+    margin-right: 2%;
+    text-align: center;
+}
+.locationbod .headline h1{
+    margin: 30px;
+    text-align: left;
+}
+.locationbod .details{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.locationbod .details .description h2,h4{
+    text-align: left;
+}
+.locationbod .details .description h2{
+    padding-left: 40px;
+}
+.locationbod .details .description h4{
+    padding-left: 60px;
+    line-height: 25px;
+    font-weight: 100;
+}
+.extrad{
+    display: inline-block;
+    vertical-align: top;
+}
+.extrad img{
+    margin: 30px;
+    display: block;
+}
+.extrad p{
+    margin: 34px;
+    text-align: left;
+    font-weight: 100;
+}
+.footer{
+    padding: 1%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    background: rgb(255, 255, 198);
+    margin-top: 120px;
+    border: 1px solid black;
+}

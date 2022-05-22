@@ -1,0 +1,180 @@
+@media only screen and (min-width: 1366px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+*{
+    margin: 0%;
+    color: black;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: white;
+}
+hr{
+    border: 1px solid black;
+}
+.container{
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, rgba(121, 121, 255, 0.423), rgba(233, 184, 138, 0.693));
+    border: 2px solid black;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.menu-icon{
+    width: 40px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+nav{
+    text-align: right;
+    flex: 1;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    color: pink;
+}
+.description{
+    padding: 25px;
+}
+.vouchertext{
+    text-align: center;
+}
+.color-box{
+    position: absolute;
+    top: 150px;
+    right: 25%;
+    background: rgba(208, 123, 250, 0.198);
+    border-radius: 20px 20px 20px 20px;
+    height: 170px;
+    width: 50%;
+    border: 2px dashed black;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+.rowpos{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+.rowpos h2{
+    font-size: 54px;
+}
+.rowpos h3 {
+    font-size: 30px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+.rowpos p{
+    font-size: 16px;
+    color: #b7b7b7;
+    font-weight: 100;
+    margin: 30px 0;
+    font-size: 20px;
+}
+button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(rgba(121, 121, 255, 0.423), rgba(233, 184, 138, 0.693));
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 1s;
+    margin: 10px;
+}
+button img{
+    width: 30px;
+    display: none;
+}
+button:hover img{
+    display: block;
+}
+button:hover{
+    width: 160px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.rowpos::after{
+    content: '';
+    width: 10px;
+    height: 57%;
+    background: linear-gradient(rgba(121, 121, 255, 0.423), rgba(233, 184, 138, 0.693));
+    position: absolute;
+    left: -40px;
+    top: 8px;
+}
+.photorow{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+.photorow .model{
+    width: 85%;
+}
+.color-boxs{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: linear-gradient(to right, rgba(121, 121, 255, 0.423), rgba(233, 184, 138, 0.693));
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+    width: 90%;
+    z-index: -1;
+    transform: translateX(150px);
+}
+.footer{
+    padding: 1%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    background: rgb(255, 255, 198);
+    margin-top: 120px;
+    border: 1px solid black;
+}
